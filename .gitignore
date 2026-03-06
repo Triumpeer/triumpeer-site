@@ -1,0 +1,85 @@
+# =========================
+
+# OS Generated Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Temporary Files
+
+# =========================
+
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# =========================
+
+# IDE / Editor Settings
+
+# =========================
+
+# JetBrains (IntelliJ / Rider / WebStorm)
+
+.idea/
+*.iml
+out
+gen
+
+# VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# =========================
+
+# Node / Build Artifacts
+
+# (only relevant if you later add a build pipeline)
+
+# =========================
+
+node_modules/
+dist/
+build/
+.cache/
+
+# =========================
+
+# Python (if scripts are used)
+
+# =========================
+
+**pycache**/
+*.pyc
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.bak
+*.orig
+
