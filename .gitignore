@@ -80,8 +80,8 @@ build/
 
 # =========================
 
-asset/email-signature/*
-!asset/email-signature/email-signature-template-*.html
+assets/email-signature/*
+!assets/email-signature/email-signature-template-*.html
 
 *.bak
 *.orig
