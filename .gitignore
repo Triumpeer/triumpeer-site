@@ -76,9 +76,12 @@ build/
 
 # =========================
 
-# Misc
+# Email Signatures
 
 # =========================
+
+asset/email-signature/*
+!asset/email-signature/email-signature-template-*.html
 
 *.bak
 *.orig
