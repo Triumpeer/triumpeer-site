@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-funnel text-triumpeer-dark dark:text-gray-100 dark:bg-[#0a0c10];
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat;
+  }
+}
+
+/* Toptal Badge Styles */
+@import "https://use.typekit.net/kmj5qkr.css";
+
+#toptal-badge-container {
+    --h: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
+    font-family: proxima-nova, Arial, sans-serif;
+}
+
+#toptal-badge-container .h {
+    display: inline-block;
+    background: #25a9ef;
+    padding: 6px;
+    clip-path: var(--h);
+}
+
+#toptal-badge-container .a {
+    width: 200px;
+    padding: 24px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    clip-path: var(--h);
+    box-shadow: 0 28px 50px rgba(6, 30, 96, .35);
+}
+
+#toptal-badge-container .b {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#toptal-badge-container .c {
+    width: 120px;
+    height: 1px;
+    background: #25a9ef;
+}
+
+#toptal-badge-container .d {
+    font-size: 16px;
+    margin-bottom: -6px;
+}
+
+#toptal-badge-container .f {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px;
+    border-radius: 6px;
+    background: #296bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-thickness: .5px;
+    text-underline-offset: 2px;
+    text-decoration: none;
+}
+
+/* Light Mode specific */
+#toptal-badge-container .badge-light .a {
+    color: #204ecf;
+    background: radial-gradient(circle at 20% -10%, #00c3ff -80%, #fff 30%), radial-gradient(circle at -20% 20%, #00c3ff -80%, #fff 30%), radial-gradient(circle at 70% 100%, #00c3ff -80%, #fff 30%), radial-gradient(circle at 120% 80%, #00c3ff -80%, #fff 30%);
+    background-blend-mode: multiply;
+}
+
+/* Dark Mode specific */
+#toptal-badge-container .badge-dark .a {
+    color: #fff;
+    background: linear-gradient(153deg, #0667ff 18%, #204ecf 40%, #0f256e 80%);
+}
+
+#toptal-badge-container .badge-dark .d {
+    opacity: .8;
+}
